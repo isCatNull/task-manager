@@ -1,0 +1,25 @@
+﻿# Rider
+.idea/
+*.sln.iml
+
+# Build
+bin/
+obj/
+out/
+*.log
+
+# User-specific
+*.user
+*.userosscache
+*.suo
+*.tmp
+*.vscode/
+*.vs/
+
+# Dependency caches
+node_modules/
+wwwroot/lib/
+
+# Environment files
+.env
+.env.*
