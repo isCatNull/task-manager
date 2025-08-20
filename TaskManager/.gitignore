@@ -23,3 +23,9 @@ wwwroot/lib/
 # Environment files
 .env
 .env.*
+
+# VS/Rider user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
