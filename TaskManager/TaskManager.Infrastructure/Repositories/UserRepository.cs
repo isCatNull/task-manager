@@ -1,5 +1,5 @@
-﻿using TaskManager.Core.Entities;
-using TaskManager.Core.Interfaces;
+﻿using TaskManager.Core.Interfaces;
+using TaskManager.Domain.Entities;
 
 namespace TaskManager.Infrastructure.Repositories;
 
