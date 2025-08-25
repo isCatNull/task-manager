@@ -1,4 +1,4 @@
-﻿using TaskManager.Core.Entities;
+﻿using TaskManager.Domain.Entities;
 
 namespace TaskManager.Core.Interfaces;
 
