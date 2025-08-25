@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TaskManager.API.Models;
-using TaskManager.Core.Entities;
 using TaskManager.Core.Interfaces;
+using TaskManager.Domain.Entities;
 
 namespace TaskManager.API;
 

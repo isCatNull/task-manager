@@ -1,8 +1,10 @@
-﻿namespace TaskManager.Core.Entities;
+﻿namespace TaskManager.Domain.Entities;
 
 public class User
 {
-    public int Id { get; set; }
-    public string Username { get; set; } = null!;
-    public string Email { get; set; } = null!;
+    public int Id { get; init; }
+    public string Username { get; init; } = null!;
+    public string Email { get; init; } = null!;
+    public IEnumerable<Task> Tasks { get; init; } = new List<Task>();
+    public DateTime CreatedAt { get; init; }
 }
